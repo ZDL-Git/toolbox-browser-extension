@@ -26,7 +26,7 @@ function selectTools(langs) {
     filter(filterLang).
     reduce((selected, lang) => [...selected, ...supportedLanguages[lang]], []);
 
-  return selectedToolIds.length ? [...new Set(selectedToolIds)] : ['idea'];
+  return selectedToolIds.length ? [...new Set(selectedToolIds)] : ['pycharm', 'webstorm'];
 }
 
 function renderButtons(tools) {
