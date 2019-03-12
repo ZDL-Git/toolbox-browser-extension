@@ -36,7 +36,7 @@ webpackJsonp([1],[
 	    return [].concat(_toConsumableArray(selected), _toConsumableArray(_common.supportedLanguages[lang]));
 	  }, []);
 
-	  return selectedToolIds.length ? [].concat(_toConsumableArray(new Set(selectedToolIds))) : ['pycharm', 'webstorm'];
+	  return selectedToolIds.length ? [].concat(_toConsumableArray(new Set(selectedToolIds))) : ['idea', 'pycharm', 'webstorm'];
 	}
 
 	function renderButtons(tools) {
